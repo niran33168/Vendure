@@ -1,0 +1,10 @@
+*** Settings ***
+Library           Collections
+Library           String
+Library           BuiltIn
+Library           OperatingSystem
+Library           DateTime
+Library           ../Library/ExcelLibraryV2.py
+Library           JSONLibrary
+Resource          Common_Keyword/ExcelKeyword.robot
+Resource          Common_Keyword/CommonKeyword.robot
